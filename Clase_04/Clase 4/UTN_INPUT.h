@@ -13,11 +13,11 @@ int pedirEntero (char[], int, int);
 
 /** \brief
  *
- * \param
- * \param
- * \param
- * \param
- * \return
+ * \param int
+ * \param char[] mensaje que se mostrara
+ * \param int minimo del rango de validacion
+ * \param int maximo del rango de validacion
+ * \return int el numero validado
  *
  */
 
