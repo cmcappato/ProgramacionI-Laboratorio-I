@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1536236703 source:d:\cappato\tema nuevo\notas.c
+
+1536237776 source:d:\cappato\tema nuevo\main.c
+	<stdio.h>
+	<stdlib.h>
+

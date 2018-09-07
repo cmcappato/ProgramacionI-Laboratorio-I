@@ -1,0 +1,50 @@
+ARRAYS
+
+- array unidimensional: lo llamamos vector. dentro de el puedo guardar distintos valores.
+- matriz: tenemos filas y columnas (es bidimensional)
+los arrays son UNITIPOS 
+
+un puntero siempre va a valer 4 bits porque los punteros guardan un entero
+
+para ver el tamaño de una variable:
+
+printf("%d", sizeof(valor que quiero saber));
+
+los vectores tienen subindices
+ej
+
+	int miVector [5];
+
+	miVector [2] = 9;
+
+	printf("%d", &miVector[2]); muestra la direccion de memoria del vector 2
+
+formas de cargar un vector:
+
+-forma secuencial
+-forma aleatoria
+-por extension:  int miVector [5] = {5, 9, 3, 4, 7};
+para mostrar esto lo hago con un for 
+
+un vector es  un puntero que guarda la direccion de memoria
+de su primer elemento
+
+int const siempre vale lo que quiero reemplazar dentro del programa durante el ciclo de vida de este;
+
+
+si tengo que buscar un solo dato para no iterar sin sentido rompo la funcion
+
+para ordenar un vector:
+
+SWAP (intercambio de variables); 
+
+for (int i = 0; i < count; ++i)
+{
+	for (int i = 0; i < count; ++i)
+	{
+		if()//criterio de ordenamiento
+	}
+}
+
+este algoritmo se llama "burbujeo"
+

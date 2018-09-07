@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1536236047 source:d:\cappato\clase 5\funciones.c
+	<stdio.h>
+	"Funciones.h"
+
+1536234946 d:\cappato\clase 5\funciones.h
+
+1536236285 source:d:\cappato\clase 5\main.c
+	<stdio.h>
+	<stdlib.h>
+
