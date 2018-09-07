@@ -4,34 +4,21 @@
 
 int main()
 {
-    char nombre[20]="Anibal";
-    char otroNombre[20]="Juan";
+    char nombre[20];
     int cantidad;
-    int compara;
-    int i=0;
 
-    /*strcat(otroNombre, " ");
-    strcat(otroNombre, nombre);
-    printf("%s", otroNombre);*/
+    printf("Ingrese su nombre: ");
+    scanf("%[^\n]", nombre);
+    /*fgets(nombre, 20, stdin);
 
-    //Para mostrar lo anterior sin el %s uso un for o un while
+    puts(nombre);
 
-    while(nombre[i]!= '\0')
-    {
-
-        //if(tolower(nombre[i])=='a')
-            //printf("%c", nombre[i]);
+    nombre[strlen(nombre)-1]= '\0';*/
 
 
-        i++;
+    cantidad= strlen(nombre);
 
-
-
-
-    }
-
-    printf("%d",i);
-
+    printf("Cantidad: %d", cantidad);
 
 
 
