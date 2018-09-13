@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536841448 source:d:\cappato\clase_06\ejercicioclase6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1536844785 source:d:\cappato\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1536851103 source:d:\cappato\arrays\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Funciones.h"
+
+1536850203 d:\cappato\arrays\funciones.h
+

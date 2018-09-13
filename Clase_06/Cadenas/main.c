@@ -20,7 +20,5 @@ int main()
 
     printf("Cantidad: %d", cantidad);
 
-
-
     return 0;
 }

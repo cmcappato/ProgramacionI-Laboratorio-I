@@ -10,17 +10,17 @@ si el usuario ingresa 4 caracteres para que no muestre la basura
 que viene luego uso "\0" luego del printf para que el programa sepa
 hasta donde leer la variable.
 
-strlen 
-strcpy: recibe dos cadenas y pega la segunda a la primera. 
+strlen() 
+strcpy(): recibe dos cadenas y pega la segunda a la primera. 
 Asigna el valor de origen al valor de destino. Si en la variable ya
 habia un dato lo sobreescribe.
-strcmp: recibe dos constantes a char y devuelve un entero. es para 
+strcmp(): recibe dos constantes a char y devuelve un entero. es para 
 cómparar dos variables 
-stricmp: lo mismo que la anterior, pero ignora las mayusculas
-strupr y strlwr: pasan todo a mayusculas o minusculas respectivamente
-strcat: recibe un puntero a char y la otra puede ser una constante 
+stricmp(): lo mismo que la anterior, pero ignora las mayusculas
+strupr() y strlwr(): pasan todo a mayusculas o minusculas respectivamente
+strcat(): recibe un puntero a char y la otra puede ser una constante 
 con puntero a char
-fgets: se declara el numero maximo de caracteres que se puede ingresar
+fgets(): se declara el numero maximo de caracteres que se puede ingresar
 en un vector y se asegura de que se corte si se ingresan mas para que
 el programa no se rompa. Como esta preparada para leer archivos tiene
 varias lineas tiene un \n al final.
