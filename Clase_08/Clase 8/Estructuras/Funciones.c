@@ -40,6 +40,35 @@ void mostrarListado(eAlumno listado[], int tam)
 
     for (i=0; i<tam ; i++ )
     {
-        mostrarAlumno(listado[i]);
+        if (listado[i].estado==OCUPADO)
+        {
+            mostrarAlumno(listado[i]);
+        }
+
+
+
     }
 }
+
+void inicializarAlimnos (eAlumno lista[], int tam, int estado)
+{
+    int i;
+    for(i = 0; i<tam; i++)
+    {
+        lista[i].estado = estado;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
