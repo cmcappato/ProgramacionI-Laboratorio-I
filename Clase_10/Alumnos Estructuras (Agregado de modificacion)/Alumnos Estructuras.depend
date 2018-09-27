@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1538049809 source:d:\cappato\clase_09\alumnos estructuras\alumnos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Alumnos.h"
+
+1538049808 d:\cappato\clase_09\alumnos estructuras\alumnos.h
+
