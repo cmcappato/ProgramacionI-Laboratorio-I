@@ -2,36 +2,35 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="alumnos.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="718" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="63" topLine="0" />
+			<Cursor1 position="1919" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="Curso.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="102" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="alumnos.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2564" topLine="26" />
+			<Cursor1 position="3049" topLine="61" />
 		</Cursor>
 		<Folding>
-			<Collapse line="6" />
-			<Collapse line="9" />
-			<Collapse line="15" />
-			<Collapse line="39" />
-			<Collapse line="44" />
-			<Collapse line="51" />
-			<Collapse line="59" />
-			<Collapse line="62" />
-			<Collapse line="64" />
-			<Collapse line="71" />
-			<Collapse line="76" />
-			<Collapse line="78" />
-			<Collapse line="87" />
-			<Collapse line="97" />
-			<Collapse line="107" />
+			<Collapse line="45" />
+			<Collapse line="52" />
+			<Collapse line="60" />
+			<Collapse line="72" />
 		</Folding>
 	</File>
-	<File name="alumnos.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Curso.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="652" topLine="8" />
+			<Cursor1 position="369" topLine="12" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

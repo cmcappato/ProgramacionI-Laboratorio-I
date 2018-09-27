@@ -38,7 +38,8 @@ eAlumno cargarAlumno()
 
 void mostrarAlumno (eAlumno alumnoParametro)
 {
-    printf("%d -- %s -- %s -- %f\n", alumnoParametro.legajo, alumnoParametro.nombre, alumnoParametro.direccion, alumnoParametro.promedio);
+    printf("%d -- %s -- %s -- %.2f--%d\n", alumnoParametro.legajo, alumnoParametro.nombre, alumnoParametro.direccion,
+           alumnoParametro.promedio, alumnoParametro.id);
 }
 
 int cargarAlumnoEnListado(eAlumno listado[], int tam)
@@ -132,6 +133,7 @@ void inicializarAlumnosConDatos (eAlumno listado[] , int tam)// esta funcion me 
     char nombre [5][50] = {"Juan", "Maria", "Pedro", "Susana", "Luis"};
     float promedio [5] = {3, 8, 6, 4, 7};
     char direccion [5][50] = {"aaa", "bbb", "ccc", "ddd", "eee"};
+    int id [5] = {100, 101, 100, 102, 101};
     int i;
 
     for(i=0; i<5; i++)
@@ -140,14 +142,9 @@ void inicializarAlumnosConDatos (eAlumno listado[] , int tam)// esta funcion me 
         strcpy(listado[i].nombre, nombre[i]);
         listado [i].promedio = promedio[i];
         strcpy(listado[i].direccion, direccion[i]);
-        listado[i].estado = OCUPADO;
-
-
-
+        listado[i].estado = 1;
+        listado [i].id = id [i];
     }
-
-
-
 }
 
 

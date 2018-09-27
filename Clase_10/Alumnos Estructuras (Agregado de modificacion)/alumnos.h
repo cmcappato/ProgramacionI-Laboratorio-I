@@ -1,10 +1,13 @@
+
 typedef struct
 {
 	int legajo;
-	char nombre[50]; // Guarda una cadena. Por eso es un vector.
-	char direccion[50];
+	char nombre[50];
 	float promedio;
+	char direccion[50];
 	int estado;
+	int id;
+	//eFecha fechaNacimiento;
 
 }eAlumno;
 

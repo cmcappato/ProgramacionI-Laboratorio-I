@@ -7,3 +7,25 @@
 
 1538049808 d:\cappato\clase_09\alumnos estructuras\alumnos.h
 
+1538061207 source:d:\cappato\clase_10\alumnos estructuras (agregado de modificacion)\alumnos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Alumnos.h"
+
+1538061197 d:\cappato\clase_10\alumnos estructuras (agregado de modificacion)\alumnos.h
+
+1538061500 source:d:\cappato\clase_10\alumnos estructuras (agregado de modificacion)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Alumnos.h"
+	"Curso.h"
+
+1538061249 source:d:\cappato\clase_10\alumnos estructuras (agregado de modificacion)\curso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Curso.h"
+
+1538061232 d:\cappato\clase_10\alumnos estructuras (agregado de modificacion)\curso.h
+
