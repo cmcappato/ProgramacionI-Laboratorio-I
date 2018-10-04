@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1538659221 source:d:\cappato\clase_12\gerflix 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"SerieUsuario.h"
+
+1538659916 d:\cappato\clase_12\gerflix 2.0\serieusuario.h
+
+1538658049 source:d:\cappato\clase_12\gerflix 2.0\serieusuario.c
+
+1538658304 source:d:\cappato\clase_12\gerflix 2.0\usuario.c
+	"Usuario.h"
+
+1538659916 d:\cappato\clase_12\gerflix 2.0\usuario.h
+
