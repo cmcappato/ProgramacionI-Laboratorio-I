@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "Alumnos.h"
@@ -60,7 +62,7 @@ int main()
             }
             break;
         case 4:
-            if(modifcarAlumno(listaAlumnos, A))
+            if(modificarAlumno(listaAlumnos, A))
             {
                 printf("El alumno se modifico \n");
             }
@@ -84,7 +86,7 @@ int main()
                 }
 
             }
- break;
+            break;
         case 10:
             printf("Programa finalizado \n");
             break;
@@ -96,7 +98,6 @@ int main()
         system("cls");
     }
     while(opcion!=10);
-
 
     return 0;
 }

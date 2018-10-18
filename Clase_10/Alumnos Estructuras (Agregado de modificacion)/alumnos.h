@@ -1,4 +1,5 @@
 
+
 typedef struct
 {
 	int legajo;
@@ -32,7 +33,7 @@ int buscarEspacio (eAlumno[], int);
 
 int borrarAlumno (eAlumno[], int);
 
-int modifcarAlumno (eAlumno [], int);
+int modificarAlumno (eAlumno [], int);
 
 void inicializarAlumnosConDatos (eAlumno [], int);
 

@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -105,7 +107,7 @@ int borrarAlumno (eAlumno listado[], int tam)
     return encontro;
 }
 
-int modifcarAlumno (eAlumno listado[], int tam)
+int modificarAlumno (eAlumno listado[], int tam)
 {
     int legajo;
     int i;
